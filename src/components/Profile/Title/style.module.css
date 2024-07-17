@@ -1,0 +1,21 @@
+
+.wrapper{
+    margin: 1rem;
+}
+.follow{
+    margin-left: 1rem;
+    padding: 5px;
+    border: none;
+    background-color: #fff;
+    color:  rgb(30,112,189);
+}
+.follow:hover{
+    background: linear-gradient(45deg, rgb(30,112,189) 10%, rgb(124, 212, 235) 100%);
+    cursor: pointer;
+    border-radius: .25rem;
+    transition: .2s;
+    color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    font-weight: 700;
+   width: 4rem;
+}

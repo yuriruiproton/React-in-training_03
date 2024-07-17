@@ -8,7 +8,7 @@ function App() {
         <Profile 
               avatar={image} 
               name="Harvey Specter"
-              bio="Advogado Criminalista e Socio administrativo "
+              bio="Advogado Criminalista e Socio administrativo at Suits "
               phone="872311889"
               email="harvey@gmail.com"
               githubUrl="https://github.com"
