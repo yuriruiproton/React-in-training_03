@@ -5,13 +5,24 @@ import ProfileSection from "../Profile/ProfileSection/index"
 import LinkButton from "../LinkButton/index"
 
 
+    function followClick(ev){
+            console.log(ev)
+            alert("Voce esta seguindo")
+        }
+        
 export default function Profile(props){
+
+
     return(
         <div className={styles.container}>
             <img className={styles.avatar} src={props.avatar} alt={props.name} />
             <Title>
                 <span>{props.name}</span>
-                <button className={button.follow}>seguir</button>
+                <button className={button.follow} 
+                onClick={followClick}
+                >
+                seguir
+                </button>
             </Title>
                 <ProfileSection>{props.bio}</ProfileSection>
                 <ProfileSection>{props.phone}</ProfileSection>
